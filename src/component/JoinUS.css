@@ -1,0 +1,103 @@
+@media(max-width:480px){
+    .JoinUScontant{
+        font-size: 20px;
+        color: rgb(48, 27, 241);
+        margin-top: 0.5rem;
+    }
+    .JoinUScontant1{
+        margin-top: -1rem;
+        font-size: 19px;
+        color: rgb(224, 13, 172);
+    }
+
+    .youtubevideoiframe{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 400px;
+        height: 900px;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px){
+    .JoinUScontant{
+        font-size: 20px;
+        color: rgb(48, 27, 241);
+        margin-top: 0.5rem;
+    }
+    .JoinUScontant1{
+        margin-top: -1rem;
+        font-size: 19px;
+        color: rgb(224, 13, 172);
+    }
+
+    .youtubevideoiframe{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 500px;
+        height: 900px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .JoinUScontant{
+        font-size: 22px;
+        color: rgb(48, 27, 241);
+        margin-top: 0.5rem;
+    }
+    .JoinUScontant1{
+        margin-top: -1rem;
+        font-size: 19px;
+        color: rgb(224, 13, 172);
+    }
+
+    .youtubevideoiframe{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 600px;
+        height: 900px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px){
+    .JoinUScontant{
+        font-size: 24px;
+        color: rgb(48, 27, 241);
+        margin-top: 0.5rem;
+    }
+    .JoinUScontant1{
+        margin-top: -1rem;
+        font-size: 19px;
+        color: rgb(224, 13, 172);
+    }
+
+    .youtubevideoiframe{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 700px;
+        height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1281px){
+    .JoinUScontant{
+        font-size: 24px;
+        color: rgb(48, 27, 241);
+        margin-top: 0.5rem;
+    }
+    .JoinUScontant1{
+        margin-top: -1rem;
+        font-size: 19px;
+        color: rgb(224, 13, 172);
+    }
+
+    .youtubevideoiframe{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 700px;
+        height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

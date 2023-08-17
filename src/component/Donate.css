@@ -1,0 +1,472 @@
+
+/* Donate Lines grid css start */
+
+.DonateLines{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    background-color: rgb(248, 231, 250);
+    margin-top: 1rem;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.Donateheading{
+    .btag{
+        color: goldenrod;
+        font-size: 29px;
+    }
+}
+.heading1{
+    .ptag{
+        font-size: 18px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Donate Lines grid css end */
+
+
+/* Donate Online grid css start */
+
+@media(max-width:480px){
+    .DonateOnline{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    
+    .DonateOnlineitem1{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -11.5rem;
+        margin-bottom: 8rem;
+    }
+    .DonateOnlineitem2{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -10rem;  
+        margin-bottom: 1rem;  
+    }
+    .DonateOnlineitem3{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -8rem;
+        margin-bottom: 1rem;
+    }
+    .DonateOnlineitem4{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -6rem;
+    }
+    
+    .DonateOnlineitem2:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    .DonateOnlineitem3:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitemtext{
+        .ptag{
+            color: rgb(21, 68, 221);
+            font-weight: 600;
+            font-size: 29px;
+            margin-top: 1rem;
+        }
+        .ptag1{
+            color: rgb(170, 15, 15);
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .DonateOnline{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    
+    .DonateOnlineitem1{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -11.5rem;
+        margin-bottom: 8rem;
+    }
+    .DonateOnlineitem2{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -10rem;  
+        margin-bottom: 1rem;  
+    }
+    .DonateOnlineitem3{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -8rem;
+        margin-bottom: 1rem;
+    }
+    .DonateOnlineitem4{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -6rem;
+    }
+    
+    .DonateOnlineitem2:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    .DonateOnlineitem3:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitemtext{
+        .ptag{
+            color: rgb(21, 68, 221);
+            font-weight: 600;
+            font-size: 29px;
+            margin-top: 1.5rem;
+        }
+        .ptag1{
+            color: rgb(170, 15, 15);
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .DonateOnline{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .DonateOnlineitem1{
+        scale: 0.7;
+        opacity: 0.9;
+        margin-left: 2rem;
+        margin-top: -20rem;
+        margin-bottom: 9.5cm;
+    }
+    
+    .DonateOnlineitem2{
+        scale: 0.7;
+        opacity: 0.9;
+        margin-right: 2rem;
+        margin-top: -24rem;
+       
+    }
+
+    .DonateOnlineitem3{
+        scale: 0.7;
+        opacity: 0.9;
+        margin-left: 2rem;
+        margin-top: -26rem;
+    }
+    
+    .DonateOnlineitem4{
+        scale: 0.7;
+        opacity: 0.9;
+        margin-right: 2rem;
+        margin-top: -26rem;
+    }
+
+    .DonateOnlineitem2:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitem3:hover{
+        scale: 0.9;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitemtext{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 2rem;
+        .ptag{
+            color: rgb(38, 64, 160);
+            font-weight: 600;
+            font-size: 29px;
+        }
+        .ptag1{
+            color: rgb(170, 15, 15);
+            font-weight: 600;
+           font-size: 22px;
+        }
+    }
+}
+
+
+@media(min-width:1025px) and (max-width:1280px){
+    .DonateOnline{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 1cm;
+        margin-top: 12rem;
+    }
+    
+    .DonateOnlineitem1{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem2{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem3{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem4{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    
+    .DonateOnlineitem2:hover{
+        scale: 1;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+
+    .DonateOnlineitem3:hover{
+        scale: 1;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitemtext{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+        margin-top: -10rem;
+        .ptag{
+            color: rgb(21, 68, 221);
+            font-weight: 600;
+            font-size: 29px;
+        }
+        .ptag1{
+            color: rgb(170, 15, 15);
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+}
+
+@media(min-width:1281px){
+     .DonateOnline{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-bottom: 1cm;
+        margin-top: 12rem;
+    }
+    
+    .DonateOnlineitem1{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem2{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem3{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    .DonateOnlineitem4{
+        scale: 0.8;
+        opacity: 0.9;
+        margin-top: -2.5rem;
+    }
+    
+    .DonateOnlineitem2:hover{
+        scale: 1;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+
+    .DonateOnlineitem3:hover{
+        scale: 1;
+        opacity: 1;
+        transition-duration: 0.4s;
+    }
+    
+    .DonateOnlineitemtext{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+        margin-top: -10rem;
+        .ptag{
+            color: rgb(21, 68, 221);
+            font-weight: 600;
+            font-size: 29px;
+        }
+        .ptag1{
+            color: rgb(170, 15, 15);
+            font-weight: 600;
+            font-size: 22px;
+        }
+    }
+}
+
+
+/* Donate Online grid css end */
+
+
+/* Donate Photo grid css start */
+
+@media(max-width:480px){
+    .DonatePhoto{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    
+    .DonatePhotoitem{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    
+        .ptag{
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .DonatePhoto{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    
+    .DonatePhotoitem{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    
+        .ptag{
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .DonatePhoto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .DonatePhotoitem{
+       margin-left: 5rem;
+       margin-right: 5rem;
+    
+        .ptag{
+            margin-top: 1.5rem;
+            margin-bottom: 3rem;
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    .DonatePhoto{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    
+    .DonatePhotoitem{
+      margin-left: 2rem;
+      margin-right: 2rem;
+        .ptag{
+            margin-top: 1rem;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media(min-width:1281px){
+    .DonatePhoto{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    
+    .DonatePhotoitem{
+      margin-left: 2rem;
+      margin-right: 2rem;
+        .ptag{
+            margin-top: 1rem;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+.Donatebank{
+    display: grid;
+    grid-template-rows: repeat(2 1fr);
+    grid-template-columns: repeat(2 1fr);
+    row-gap: 19px;  
+    background-color: rgb(186, 231, 230); 
+    width: 95%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Donatebankitemheading{
+    font-size: 24px;
+    color: rgb(83, 95, 207);
+    font-weight: 500;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 1.2rem;
+}
+
+.Donatebankitem{
+    margin-top: 0.4rem;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.Donatebankitem1{
+    margin-top: 0.4rem;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Donate bank account grid css end */

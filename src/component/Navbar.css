@@ -1,0 +1,9 @@
+#navbarid{
+    display: block;
+    border-radius: 5px;
+    background-color:rgb(221, 214, 206);
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+}

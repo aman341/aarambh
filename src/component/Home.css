@@ -1,0 +1,758 @@
+
+/* Humanity_Above_Religion css grid start */
+@media (max-width:480px){
+    .Humanity_Above_Religion{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-top: 4.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(208, 236, 247);
+        border-radius: 8px;
+        width: 92%;
+        height: 370px;
+    }
+
+    .Humanity_Above_Religion_text{
+        margin-top: 0.2rem; 
+    }
+
+    .heading{     
+        .btag{
+            color: red;
+            font-size: 1.9rem;
+        }
+    }
+
+    .heading1{ 
+        .ptag{
+            font-size: 1.2rem;
+        }   
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .Humanity_Above_Religion{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-top: 4.5rem;
+        margin-left: 1rem;
+        background-color: lightblue;
+        border-radius: 8px;
+        width: 95%;
+        height: 305px;
+    }
+
+    .Humanity_Above_Religion_text{
+        margin-top: 0.2rem; 
+    }
+
+    .heading{     
+        .btag{
+            color: red;
+            font-size: 1.9rem;
+        }
+    }
+
+    .heading1{ 
+        .ptag{
+            font-size: 1.2rem;
+        }   
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .Humanity_Above_Religion{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-top: 4.5rem;
+        margin-left: 1.25rem;
+        background-color: lightblue;
+        border-radius: 8px;
+        width: 95%;
+        height: 280px;
+    }
+
+    .Humanity_Above_Religion_text{
+        margin-top: 0.2rem; 
+    }
+
+    .heading{     
+        .btag{
+            color: red;
+            font-size: 1.9rem;
+        }
+    }
+
+    .heading1{ 
+        .ptag{
+            font-size: 1.2rem;
+        }   
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .Humanity_Above_Religion{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-top: 4.5rem;
+        margin-left: 1.3rem;
+        background-color: lightblue;
+        border-radius: 8px;
+        width: 96%;
+        height: 250px;
+    }
+
+    .Humanity_Above_Religion_text{
+        margin-top: 0.2rem; 
+    }
+
+    .heading{     
+        .btag{
+            color: red;
+            font-size: 1.9rem;
+        }
+    }
+
+    .heading1{ 
+        .ptag{
+            font-size: 1.2rem;
+        }   
+    }
+}
+
+@media (min-width:1281px){
+    .Humanity_Above_Religion{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-top: 4.5rem;
+        margin-left: 1.3rem;
+        background-color: lightblue;
+        border-radius: 8px;
+        width: 97%;
+        height: 250px;
+    }
+
+    .Humanity_Above_Religion_text{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.2rem;
+        
+    }
+
+    .heading{     
+        .btag{
+            color: red;
+            font-size: 1.9rem;
+        }
+    }
+
+    .heading1{ 
+        .ptag{
+            font-size: 1.2rem;
+        }   
+    }
+}
+/* Humanity_Above_Religion css grid start */
+
+/* We stand to help photo and text Grid start  */
+
+@media (max-width:480px){
+    .We_stand_to_help{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 1rem;
+        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(222, 238, 209);
+        width: 92%;
+        height: 720px;
+        border-radius: 5px;
+        margin-bottom: 5rem;
+    }
+
+    .helpitemtext{
+        font-size: 1rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .helpitemphoto{
+        width: 19rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .We_stand_to_help{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        row-gap: auto;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        background-color: rgb(202, 236, 174);
+        width: 95%;
+        height: 710px;
+        border-radius: 5px;
+    }
+
+    .helpitemtext{
+        font-size: 1rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .helpitemphoto{
+        width: 26rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .We_stand_to_help{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        column-gap: auto;
+        margin-top: 0.5rem;
+        margin-left: 1.25rem;
+        background-color: rgb(202, 236, 174);
+        width: 95%;
+        height: 440px;
+        border-radius: 5px;
+    }
+
+    .helpitemtext{
+        font-size: 1rem; 
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .helpitemphoto{
+        width: 23rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+   .We_stand_to_help{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        column-gap: auto;
+        margin-top: 2.5rem;
+        margin-left: 1.25rem;
+        background-color: rgb(202, 236, 174);
+        width: 96%;
+        height: 370px;
+        border-radius: 5px;
+    }
+
+    .helpitemtext{
+        font-size: 1rem; 
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .helpitemphoto{
+        width: 26rem;
+        margin-left: 3rem;
+        /* margin-right: 0.5rem; */
+        margin-top: 1.4rem;
+    }
+}
+
+@media (min-width:1281px){
+    .We_stand_to_help{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        column-gap: auto;
+        margin-top: 1rem;
+        margin-left: 1.3rem;
+        background-color: rgb(202, 236, 174);
+        width: 97%;
+        height: 370px;
+        border-radius: 5px;
+    }
+
+    .helpitemtext{
+        font-size: 1rem; 
+        display: block;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .helpitemphoto{
+        width: 27rem;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.2rem;
+        margin-right: 1.3rem;
+    }
+}
+
+/* We stand to help photo and text Grid end  */
+
+
+/* latestrow grid css start */
+@media (max-width: 480px){
+    .latestrow{
+            .latest{
+                .H3class{
+                    margin-top: -5rem ;
+                    margin-bottom: 6rem;
+                    color: royalblue;
+                    font-size: 1.9rem;
+                }
+            }
+        }
+    .Artical_card{
+        display: grid;
+        grid-template-rows: repeat(6,1fr);
+        row-gap: 7rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .latestrow{
+        .latest{
+            .H3class{
+                margin-top: 3rem ;
+                margin-bottom: 6rem;
+                color: royalblue;
+                font-size: 1.9rem;
+            }
+        }
+    }
+    .Artical_card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 7rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1024px)
+{
+    .latestrow{
+        .latest{
+            .H3class{
+                margin-top: 1rem ;
+                margin-bottom: 6rem;
+                color: royalblue;
+                font-size: 1.9rem;
+            }
+        }
+    }
+.Artical_card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 7rem;
+}
+}
+
+@media (min-width: 1025px) and (max-width : 1280px)
+{
+    .latestrow{
+        .latest{
+            .H3class{
+                margin-top: 1rem ;
+                margin-bottom: 6rem;
+                color: royalblue;
+                font-size: 1.9rem;
+            }
+        }
+    }
+.Artical_card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 7rem;
+    }
+}
+
+@media (min-width:1281px){
+    .latestrow{
+        .latest{
+            .H3class{
+                /* margin-top: 1rem; */
+                margin-bottom: 4rem;
+                color: royalblue;
+                font-size: 1.9rem;
+            }
+        }
+    }
+.Artical_card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 7rem;
+        width: 97%;
+        margin-left: 1.3rem;
+    }
+
+}
+/* Artical card css start */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 300px;
+  height: 195px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  background: rgb(226, 229, 231);
+  cursor: pointer;
+}
+
+
+.imgbox {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+img {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    margin-top: 4cm;
+    text-align: center;
+    transform: translateY(-450px);
+    opacity: 0; 
+    transition: 0.3s;
+}
+
+.card:hover > .content {
+  opacity: 1;
+  transform: translateY(-180px);
+}
+
+/* Artical card css end */
+
+/* latestrow grid css start */
+
+
+/* storiesinmotion Grid css start */
+
+@media (max-width: 480px){
+    .storiesinmotion{
+        margin-top: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .stories{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(8,1fr);
+    }
+    
+    .storiesitem{
+        scale: 0.88;
+        overflow: hidden;
+        opacity: 0.8;  
+        margin-top: 2rem;
+    }
+    
+    .storiesitem:hover{
+        scale: 0.94;
+        opacity: 1;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width : 481px) and (max-width : 767px){
+    .storiesinmotion{
+        margin-top: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .stories{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(8,1fr);
+        row-gap: 1rem;
+    }
+    
+    .storiesitem{
+        scale: 0.9;
+        overflow: hidden;
+        opacity: 0.8;  
+        margin-top: 2rem;
+    }
+    
+    .storiesitem:hover{
+        scale: 1;
+        opacity: 1;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1024px){
+    .storiesinmotion{
+        margin-top: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .stories{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 3rem;
+    }
+    
+    .storiesitem{
+        scale: 1;
+        overflow: hidden;
+        opacity: 0.8;  
+        margin-top: 2rem;
+    }
+    
+    .storiesitem:hover{
+        scale: 1.2;
+        opacity: 1;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width : 1025px) and (max-width : 1280px){
+    .storiesinmotion{
+        margin-top: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .stories{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 3rem;
+    }
+    
+    .storiesitem{
+        scale: 1;
+        overflow: hidden;
+        opacity: 0.8;  
+        margin-top: 2rem;
+    }
+    
+    .storiesitem:hover{
+        scale: 1.2;
+        opacity: 1;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width : 1281px){
+    .storiesinmotion{
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+    .stories{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        row-gap: 2rem;
+        margin-top: 1.5rem;
+        width: 97%;
+        margin-left: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .itemclass{
+        border-radius: 10px;
+    }
+
+    .storiesitem{
+        scale: 1;
+        overflow: hidden;
+        opacity: 0.8; 
+        border-radius: 8px;
+    }
+    
+    .storiesitem:hover{
+        scale: 1.2;
+        opacity: 1;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+/* storiesinmotion Grid css end */
+
+/* certificate grid css start */
+@media (max-width : 480px){
+   
+    .certificate_header{
+        color: blueviolet;
+        font-size: 1.8rem;
+    }
+
+    .ultag{
+        font-size: 1.1rem;
+        font-weight: 450;
+    }
+
+    .certificate{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 6rem;
+        margin-bottom: 3rem;
+    }
+    .certificateitem{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top : -30rem;
+        background-color: rgb(233, 225, 199);
+        width: 92%;
+        height: 310px;
+        border-radius: 5px;
+        
+    }
+    .certificateitem1{
+        margin-top: -19rem;
+    }
+    .certificateitem2{
+        margin-top: -47rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .certificate_header{
+        color: blueviolet;
+        font-size: 1.8rem;
+    }
+
+    .ultag{
+        font-size: 1.1rem;
+        font-weight: 450;
+    }
+
+    .certificate{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 6rem;
+        margin-bottom: 3rem;
+    }
+    .certificateitem{
+        margin-top : -30rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        background-color: rgb(225, 203, 122);
+        width: 92%;
+        height: 280px;
+        border-radius: 5px;
+    }
+    .certificateitem1{
+        margin-top: -21rem;
+    }
+    .certificateitem2{
+        margin-top: -47rem;
+    }
+}
+
+@media (min-width : 768px) and (max-width: 1024px){
+    .certificate_header{
+        color: blueviolet;
+        font-size: 1.8rem;
+    }
+
+    .ultag{
+        font-size: 1.1rem;
+        font-weight: 450;
+    }
+
+    .certificate{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width : 1025px) and (max-width: 1280px){
+    .certificate_header{
+        color: blueviolet;
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .ultag{
+        font-size: 1.1rem;
+        font-weight: 450;
+    }
+
+    .certificate{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 1.5rem;
+        background-color: rgb(225, 203, 122);
+        width: 96%;
+        height: 450px;
+        border-radius: 5px;
+    }
+    .certificateitem1{
+        margin-top: 1rem;
+    }
+    .certificateitem2{
+        margin-top: 1rem;
+    }
+}
+
+
+@media (min-width: 1281px){
+    .certificate_header{
+        color: blueviolet;
+        font-size: 1.8rem;
+        margin-top: 4rem;
+    }
+
+    .ultag{
+        font-size: 1.1rem;
+        font-weight: 450;
+    }
+
+    .certificate{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        margin-top: -26.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1.5rem;
+        background-color: rgb(225, 203, 122);
+        width: 96%;
+        height: 450px;
+        border-radius: 5px;
+    }
+
+    .certificateitem2{
+        margin-top: 1rem;
+    }
+    
+    .certificateitem1{
+        margin-top: 1rem;
+    }
+}
+
+/* certificate grid css end */

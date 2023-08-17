@@ -1,0 +1,130 @@
+
+.pinsp{
+    margin-top: 1rem;
+    font-size: 29px;
+    color: rgb(240, 131, 41);
+}
+
+.punvel{
+    font-size: 20px;
+}
+
+@media(max-width:480px){
+    .mediaphoto{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 40px;
+        margin-top: 2rem;  
+        margin-bottom: 3rem;
+    }
+    
+    .mediaphoto1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 4px solid rgb(60, 41, 231);
+        cursor: pointer;
+        .image{
+            width: 18rem;
+        }
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .mediaphoto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        row-gap: 40px;
+        margin-top: 4rem;  
+        margin-bottom: 3rem;
+    }
+    
+    .mediaphoto1{
+        cursor: pointer;
+        .image{
+            width: 18rem;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .mediaphoto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 40px;
+        margin-top: 4rem;  
+        margin-bottom: 3rem;
+    }
+    
+    .mediaphoto1{
+        margin-bottom: 2rem;
+        cursor: pointer;
+        .image{
+            width: 20rem;
+        }
+    }
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    .mediaphoto{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 40px;
+        margin-top: 4rem;  
+        margin-bottom: 3rem;
+    }
+    
+    .mediaphoto1{
+        margin-bottom: 2rem;
+        cursor: pointer;
+        .image{
+            width: 16rem;
+        }
+    }
+}
+
+@media(min-width:1281px){
+    .mediaphoto{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 30px;
+        margin-top: 4rem;  
+        margin-bottom: 3rem;
+        
+    }
+    
+    .mediaphoto1{
+        margin-bottom: 2rem;
+        cursor: pointer;
+        .image{
+            width: 16rem;
+        }
+    }
+}
+
+
+
+
+
+
+/* Add or modify the CSS styles as desired */
+.larger-image-container {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.larger-image-container img {
+    width: 95%;
+    height: 90%;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+

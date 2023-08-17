@@ -1,0 +1,46 @@
+/*Footer grid css start */
+
+.Footer{
+    background-color: rgb(211, 216, 214);
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.Footeritem{
+    margin-top: 1rem;
+    .socialmedia{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    #facebook{
+        margin-right: 1rem;
+    }
+
+    .contactus{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .pclass{
+        margin-right: 2rem;
+    }   
+    .pclass1{
+        margin-right: 1.5rem;
+    }
+}
+
+.Footeritem1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 1.5rem;
+    .Copyright{
+        font-size: 16px;
+        font-weight: 400;
+    } 
+}
+
+.Footeritem ul{
+    list-style-type: none;
+}
+
+/*Footer grid css end */

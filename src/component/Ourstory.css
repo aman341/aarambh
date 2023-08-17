@@ -1,0 +1,546 @@
+/* About us grid css start */
+
+@media(max-width:480px){
+    .Aboutus{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Aboutusitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    
+    .Aboutusitem{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        width: 92%;
+        height: 410px;
+        background-color: rgb(238, 228, 216);
+        border-radius: 5px;
+    }
+
+    .Aboutusitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .Aboutus{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Aboutusitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitem{
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        width: 93%;
+        height: 300px;
+        background-color: bisque;
+        border-radius: 5px;
+    }
+    .Aboutusitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;
+        
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .Aboutus{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: bisque;
+        width: 96%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+        
+    }
+    
+    .Aboutusitem{
+        font-weight: 500;
+        margin-top: 1.5rem;
+        margin-left: 5rem;
+        margin-right: 1rem;
+    }
+    .Aboutusitem1{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 3rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    .Aboutus{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: bisque;
+        width: 97%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        margin-right: 3rem;
+    }
+    .Aboutusitem1{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 8rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+@media(min-width:1281px){
+    .Aboutus{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: bisque;
+        width: 98%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Aboutusitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 10rem;
+    }
+    .Aboutusitem1{
+        margin-top: 1.5rem;
+        margin-right: 10rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+/* About us grid css start */
+
+
+/* Our impact grid css start */
+
+@media(max-width:480px){
+    .Ourimpact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Ourimpactitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitem{  
+        font-weight: 500;
+        margin-top: 0.6rem;
+        width: 92%;
+        height: 320px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: rgb(234, 228, 241);
+        border-radius: 5px;
+    
+    }
+    .Ourimpactitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .Ourimpact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Ourimpactitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitem{
+        font-weight: 500;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 93%;
+        height: 230px;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        background-color: rgb(219, 208, 230);
+        border-radius: 5px;
+    }
+    .Ourimpactitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;  
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .Ourimpact{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: rgb(219, 208, 230);
+        width: 96%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 1rem;
+    }
+    .Ourimpactitem1{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 3rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px; 
+    }
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    .Ourimpact{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: rgb(219, 208, 230);
+        width: 97%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        margin-right: 3rem;
+    
+    }
+    .Ourimpactitem1{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 8rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+@media(min-width:1281px){
+    .Ourimpact{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        width: 98%;
+        height: 350px;
+        margin-left: 1rem;
+        background-color: rgb(219, 208, 230);
+        margin-top: 0.5rem;
+        border-radius: 5px;
+    }
+    
+    .Ourimpactitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourimpactitem{
+        font-weight: 500;
+        /* margin-top: 1rem; */
+        margin-left: 5rem;
+        margin-right: 10rem;
+    
+    }
+    .Ourimpactitem1{
+        /* margin-top: 1.5rem; */
+        margin-right: 10rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+/* Our impact grid css end */
+
+/* Our mission grid css start */
+
+@media(max-width:480px){
+    .Ourmission{
+        margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Ourmissionitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    
+    .Ourmissionitem{
+        font-weight: 500;
+        width: 92%;
+        height: 230px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: rgb(247, 234, 184);
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .Ourmissionitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;
+    }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .Ourmission{
+        margin-bottom: 2.5rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .Ourmissionitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        width: 93%;
+        height: 230px;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        background-color: burlywood;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .Ourmissionitem1{
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(47, 209, 55);
+        height: 225.5px;  
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .Ourmission{
+        margin-bottom: 2.5rem;
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: burlywood;
+        width: 96%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 1rem;
+    }
+    .Ourmissionitem1{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 3rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px; 
+    }
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    .Ourmission{
+        margin-bottom: 2.5rem;
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        background-color: burlywood;
+        width: 97%;
+        margin-left: 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        margin-right: 3rem;
+    
+    }
+    .Ourmissionitem1{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 8rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+@media(min-width:1281px){
+    .Ourmission{
+        display: grid;
+        grid-template-rows: repeat(2 1fr);
+        grid-template-columns: repeat(2 1fr);
+        margin-bottom: 1rem;
+        background-color: burlywood;
+        margin-top: 0.5rem;
+        border-radius: 5px;
+        width: 98%;
+        height: 340px;
+        margin-left: 1rem;
+    }
+    
+    .Ourmissionitemheading{
+        font-size: 24px;
+        color: rgb(236, 57, 13);
+        font-weight: 500;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 1rem;
+    }
+    
+    .Ourmissionitem{
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        margin-right: 10rem;
+    
+    }
+    .Ourmissionitem1{
+        /* margin-top: 1.5rem; */
+        margin-right: 10rem;
+        border: 3px solid rgb(47, 209, 55);
+        height: 226px;
+        width: 316px;
+    }
+}
+
+/* Our mission grid css end */
